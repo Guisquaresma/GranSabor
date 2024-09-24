@@ -3,7 +3,8 @@
     overflow-x: hidden;
 }
 
-header {
+body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #F3E0D1;
 }
 
@@ -18,60 +19,33 @@ header {
     background-position: center 20%;
 }
 
-.container2 {
-    height: 300px;
-    background: linear-gradient(to left, #31221B 25%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px 0;
+    margin-left: 200px;
+    padding: 20px;
+    background: linear-gradient(to right, #31221B 40%, #F3E0D1 100%);
+    transition: transform 0.3s ease;
 }
 
-.container3 {
-    height: 300px;
-    background: linear-gradient(to right, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
+.product:hover, .product-2:hover {
+    transform: scale(1.2);
 }
 
-.container4 {
-    height: 300px;
-    background: linear-gradient(to left, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
-}
-
-.container4 {
-    height: 300px;
-    background: linear-gradient(to right, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
-}
-
-.container5 {
-    height: 300px;
-    background: linear-gradient(to left, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
-}
-
-.container6 {
-    height: 300px;
-    background: linear-gradient(to right, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
-}
-
-.container7 {
-    height: 300px;
-    background: linear-gradient(to right, #31221B 5%, transparent);
-    padding-left: 100%;
-    width: 500px;
-    position: relative;
+.product-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px 0;
+    margin-left: 200px;
+    padding: 20px;
+    background: linear-gradient(to left, #31221B 40%, #F3E0D1 100%);
+    transition: transform 0.3s ease;
 }
 
 .logo-fundo {
@@ -82,16 +56,21 @@ header {
 .logo {
     background-image: url(../img/gransabor.png);
     background-size: cover;
-    height: 151px;
-    width: 150px;
-    margin-top: 50px;
+    height: 191px;
+    width: 190px;
+    margin-top: 30px;
     margin-left: 100px;
+    transition: transform 0.0s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .menu {
     text-align: center;
     background-color: #31221B;
-    height: 25px;
+    padding: 15px 0;
     width: 100%;
 }
 
@@ -100,136 +79,132 @@ header {
     font-weight: bold;
     color: darkgray;
     font-family: "Open Sans", sans-serif;
-    margin: 10px;
+    margin: 30px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #F3E0D1;
+    font-size: 20px;
+    border-color: black;
 }
 
 .bolo {
     background-image: url(../img/Bolo-Confeitado.jpg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
-}
-
-.container2 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
 .brigadeiro {
     background-image: url(../img/Brigadeiro.jpg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
-}
-
-.container3 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
 .caseirinho {
     background-image: url(../img/Caseirinho.jpeg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
-}
-
-.container4 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
 .copo-da-felicidade {
     background-image: url(../img/copo-da-felicidade.jpeg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
-}
-
-.container5 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
 .cupcake {
     background-image: url(../img/cupcakes.jpeg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
-}
-
-.container6 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
 .donuts {
     background-image: url(../img/donuts.jpeg);
     background-size: cover;
-    height: 200px;
     width: 300px;
-    position: absolute;
-    left: 1200px;
-    bottom: 60px;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px #F3E0D1;
+    box-shadow: 0px 10px 20px 1px #31221B;
 }
 
-.container7 h2 {
-    position: relative;
-    left: -1800px;
-    bottom: 30px;
-}
-
-h2 {
-    margin-top: 160px;
+.texto-inicial {
     text-align: center;
-    font-size: 20px;
+    width: 1300px;
+    margin-left: 160px;
+}
+
+.texto-inicial h1{
+    font-size: 100px;
+    margin: 20px;
+}
+
+.texto-inicial p {
+    font-size: 25px;
+}
+
+.titulo {
+    color: #d7ccc8;
+    font-size: 30px;
+    margin-bottom: 200px;
+}
+
+.titulo h2 {
+    margin-left: 350px;
 }
 
 .texto {
-    background-color: #F3E0D1;
+    color: #d7ccc8;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 600px;
     text-align: center;
+    font-size: 25px;
+    position: absolute;
 }
 
-.button {
-    background-color: yellow;
+.titulo-2 {
+    color: #d7ccc8;
+    font-size: 30px;
+    margin-bottom: 200px;
+}
+
+.titulo-2 h2 {
+    margin-right: 300px;
+}
+
+.texto-2 {
+    color: #d7ccc8;
     margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
 }
 
 footer {
     background-color: #31221B;
+    height: 60px;
+}
+
+footer h1 {
     color: aliceblue;
     text-align: center;
-    height: 250px;
+    margin-top: 10px;
 }
