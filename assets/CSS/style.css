@@ -1,5 +1,10 @@
 * {
     margin: 0%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #F3E0D1;
 }
 
 .container1 {
@@ -8,21 +13,65 @@
     background-image: url(../img/menu.jpg);
     background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center 20%;
 }
 
 .container2 {
-    background-color: #F3E0D1;
-    width: 100%px;
     height: 300px;
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(to left, #31221B 25%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
 }
 
 .container3 {
-    background-color: chartreuse;
-    width: 100%px;
     height: 300px;
+    background: linear-gradient(to right, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.container4 {
+    height: 300px;
+    background: linear-gradient(to left, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.container4 {
+    height: 300px;
+    background: linear-gradient(to right, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.container5 {
+    height: 300px;
+    background: linear-gradient(to left, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.container6 {
+    height: 300px;
+    background: linear-gradient(to right, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
+}
+
+.container7 {
+    height: 300px;
+    background: linear-gradient(to right, #31221B 5%, transparent);
+    padding-left: 100%;
+    width: 500px;
+    position: relative;
 }
 
 .logo-fundo {
@@ -35,7 +84,7 @@
     background-size: cover;
     height: 151px;
     width: 150px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 100px;
 }
 
@@ -54,52 +103,112 @@
     margin: 10px;
 }
 
-.img1 {
+.bolo {
     background-image: url(../img/Bolo-Confeitado.jpg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
 }
 
-.img2 {
+.container2 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
+}
+
+.brigadeiro {
     background-image: url(../img/Brigadeiro.jpg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
 }
 
-.img3 {
+.container3 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
+}
+
+.caseirinho {
     background-image: url(../img/Caseirinho.jpeg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
 }
 
-.img4 {
+.container4 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
+}
+
+.copo-da-felicidade {
     background-image: url(../img/copo-da-felicidade.jpeg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
 }
 
-.img5 {
+.container5 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
+}
+
+.cupcake {
     background-image: url(../img/cupcakes.jpeg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
 }
 
-.img6 {
+.container6 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
+}
+
+.donuts {
     background-image: url(../img/donuts.jpeg);
     background-size: cover;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 1200px;
+    bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px #F3E0D1;
+}
+
+.container7 h2 {
+    position: relative;
+    left: -1800px;
+    bottom: 30px;
 }
 
 h2 {
