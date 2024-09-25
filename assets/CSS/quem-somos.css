@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3E0D1;
+}
+
+.container-1 {
+    background-color: #F3E0D1;
+    display: flex;
+    background-image: url(../img/menu.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center 20%;
+}
+
+.logo-fundo {
+    background: linear-gradient(to right, #31221B 25%, transparent);
+    width: 500px;
+}
+
+.logo img {
+    background-size: cover;
+    height: 191px;
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #31221B;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkgray;
+    font-family: "Open Sans", sans-serif;
+    margin: 30px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #F3E0D1;
+    font-size: 15px;
+    border-color: black;
+}
+
+.container-2 {
+    background-color: #31221B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 850px;
+}
+
+.container-3 {
+    background-color: #31221B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 550px;
+}
+
+.container-4 {
+    background-color: #31221B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 350px;
+}
+
+
+.titulo {
+    color: #d7ccc8;
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+video {
+    height: 100%;
+    width: 80%;
+    border-radius: 25px;
+    background-position: center;
+    margin-left: 80px;
+}
