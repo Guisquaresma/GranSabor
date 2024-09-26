@@ -72,10 +72,6 @@ body {
     transform: scale(1.2);
 }
 
-.texto:hover {
-    transform: scale(none);
-}
-
 .product-2 {
     display: flex;
     justify-content: space-between;
