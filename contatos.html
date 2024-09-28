@@ -28,28 +28,38 @@
     </header>
 
     <section class="container-2">
-        <div class="titulo">
-            <h2>Quem somos</h2>
-            <p>Na Gran Sabor, acreditamos que confeitar é uma arte, uma forma de expressar amor e carinho em cada
-                detalhe. Fundada em 2020, nossa confeitaria nasceu da paixão por criar doces que fazem mais do que
-                agradar o paladar – eles criam memórias inesquecíveis.
 
-                Desde o início, nosso objetivo tem sido transformar momentos especiais em experiências únicas, trazendo
-                um toque de doçura para comemorações de todos os tipos. Seja para um aniversário, casamento, chá de bebê
-                ou qualquer evento importante, cada bolo e doce é feito artesanalmente com ingredientes frescos e
-                selecionados. Nosso compromisso é com a qualidade, o sabor e a beleza de cada criação.
-
-                Nossa Missão
-                Nossa missão é oferecer produtos de confeitaria que emocionem. Valorizamos a personalização, entendendo
-                que cada cliente tem uma visão única do que deseja para suas festas e eventos. Queremos que cada
-                sobremesa seja um reflexo dos seus sonhos, feitos com dedicação e muito cuidado.</p>
-        </div>
-        <div class="video-container">
-            <video src="assets/video/produção.mp4" autoplay muted loop>
-            </video>
+        <div class="fundo">
+            <form class="formulario">
+                <h2>Entre em Contato</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+    
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem" required>
+    
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="6" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+          
+            <div class="localizacao">
+                <h2>Minha Localização</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d939.7392136142753!2d-40.514875789129526!3d-14.748730623666482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727326081656!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
         </div>
     </section>
-    
+
     <footer>
         <h1>&copy Guilherme Santos Quaresma</h1>
     </footer>

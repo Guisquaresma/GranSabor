@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     overflow-x: hidden;
+    position: relative;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 250px;
-    background-size: cover;
     background-position: center 20%;
 }
 
@@ -38,6 +38,8 @@ body {
     background-color: #31221B;
     padding: 15px 0;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu a {
@@ -51,20 +53,40 @@ body {
 
 .menu a:hover {
     color: #F3E0D1;
-    font-size: 15px;
-    border-color: black;
+    font-size: 19px;
 }
 
 .product {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 40px 0;
-    margin-left: 200px;
-    padding: 20px;
+    max-width: 75vw;
+    padding: 50px;
     background: linear-gradient(to right, #31221B 40%, #F3E0D1 100%);
     transition: transform 500ms ease-in-out;
+    margin: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vw;
+    overflow: hidden;
+}
+
+.texto h2 {
+    font-size: 3vw;
+    color: #d7ccc8;
+    text-align: left;
+    bottom: 16vw;
+}
+
+.texto p {
+    font-size: 1.5vw;
+    color: #d7ccc8;
+    margin-top: 1vw;
+    margin-right: 35vw;
+    text-align:left;
+    bottom: 16vw;
+}
+
+.texto a {
+    color: #fa530c;
+    text-decoration: none;
 }
 
 .product:hover,
@@ -73,76 +95,105 @@ body {
 }
 
 .product-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 40px 0;
-    margin-left: 200px;
-    padding: 20px;
+    max-width: 75vw;
+    padding: 50px;
     background: linear-gradient(to left, #31221B 40%, #F3E0D1 100%);
     transition: transform 500ms ease-in-out;
+    margin: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vw;
+    overflow: hidden;
 }
+
+.texto-2 h2 {
+    font-size: 3vw;
+    color: #d7ccc8;
+    text-align: right;
+    bottom: 16vw;
+}
+
+.texto-2 p {
+    font-size: 1.5vw;
+    color: #d7ccc8;
+    margin-top: 1vw;
+    margin-left: 35vw;
+    text-align:right;
+    bottom: 16vw;
+}
+
+.texto-2 a {
+    color: #fa530c;
+    text-decoration: none;
+}
+
 
 .bolo {
     background-image: url(../img/Bolo-Confeitado.jpg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 53vw;
 }
 
 .brigadeiro {
     background-image: url(../img/Brigadeiro.jpg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 25px;
 }
 
 .caseirinho {
     background-image: url(../img/Caseirinho.jpeg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 53vw;
 }
 
 .copo-da-felicidade {
     background-image: url(../img/copo-da-felicidade.jpeg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 25px;
 }
+
 
 .cupcake {
     background-image: url(../img/cupcakes.jpeg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 53vw;
 }
 
 .donuts {
     background-image: url(../img/donuts.jpeg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 20vw;
+    height: 15vw;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 1px #31221B;
+    margin-left: 25px;
 }
+
 
 .texto-inicial {
     text-align: center;
-    width: 1300px;
-    margin-left: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .texto-inicial h1 {
@@ -154,61 +205,67 @@ body {
     font-size: 25px;
 }
 
-.titulo {
-    color: #d7ccc8;
-    font-size: 30px;
-    margin-bottom: 200px;
-}
-
-.titulo h2 {
-    margin-left: 350px;
-}
-
-.texto {
-    color: #d7ccc8;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 600px;
-    text-align: center;
-    font-size: 25px;
-    position: absolute;
-}
-
-.texto a {
-    color: #9b7f73;
-}
-
-.texto-2 a {
-    color: #9b7f73;
-}
-
-.titulo-2 {
-    color: #d7ccc8;
-    font-size: 30px;
-    margin-bottom: 200px;
-}
-
-.titulo-2 h2 {
-    margin-right: 300px;
-}
-
-.texto-2 {
-    color: #d7ccc8;
-    margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 300px;
-    text-align: center;
-    font-size: 25px;
-    position: absolute;
-}
-
 footer {
     background-color: #31221B;
-    height: 60px;
+    height: 50px;
 }
 
 footer h1 {
     color: aliceblue;
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: flex;
+        justify-content: start;
+    }
+    .texto-inicial {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .texto-inicial h1 {
+        font-size: 6vw;
+    }
+    .texto-inicial p {
+        font-size: 3vw;
+    }
+
+    .texto, .texto-2 {
+        bottom: 9vw;
+    }
+
+    .texto h2 {
+        font-size: 4vw;
+        color: #d7ccc8;
+        text-align: left;
+        bottom: 16vw;
+    }
+    
+    .texto p {
+        font-size: 2.5vw;
+        color: #d7ccc8;
+        margin-right: 35vw;
+        text-align:left;
+        bottom: 16vw;
+    }
+
+    .texto-2 h2 {
+        font-size: 4vw;
+        color: #d7ccc8;
+        text-align: right;
+        bottom: 16vw;
+    }
+    
+    .texto-2 p {
+        font-size: 2.5vw;
+        color: #d7ccc8;
+        margin-top: 1vw;
+        margin-left: 35vw;
+        text-align:right;
+        bottom: 16vw;
+    }
 }
